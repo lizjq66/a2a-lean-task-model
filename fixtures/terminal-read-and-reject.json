@@ -1,0 +1,9 @@
+{
+  "format": "a2a-task-trace-v1",
+  "initial": {"taskId": "t1", "contextId": "c1", "state": "completed"},
+  "events": [
+    {"kind": "snapshot", "taskId": "t1", "contextId": "c1", "state": "completed"},
+    {"kind": "followup", "taskId": "t1", "contextId": "c1", "outcome": "unsupported-operation"},
+    {"kind": "snapshot", "taskId": "t1", "contextId": "c1", "state": "completed"}
+  ]
+}

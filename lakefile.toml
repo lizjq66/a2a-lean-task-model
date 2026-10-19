@@ -1,0 +1,10 @@
+name = "a2a-lean-task-model"
+version = "0.1.0"
+defaultTargets = ["A2A", "a2a-check"]
+
+[[lean_lib]]
+name = "A2A"
+
+[[lean_exe]]
+name = "a2a-check"
+root = "Main"

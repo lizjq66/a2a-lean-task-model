@@ -1,0 +1,7 @@
+{
+  "format": "a2a-task-trace-v1",
+  "initial": {"taskId": "t1", "contextId": "c1", "state": "input-required"},
+  "events": [
+    {"kind": "followup", "taskId": "t1", "contextId": "other-context", "outcome": "accepted"}
+  ]
+}

@@ -1,0 +1,1 @@
+fix: validate the expected error for terminal task messages
